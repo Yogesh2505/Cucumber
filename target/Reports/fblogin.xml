@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.825267">
+<testcase classname="Validate the logine functionality of facebook" name="Validate the login functionality with inavalid username name and valid password" time="21.825267">
+<system-out><![CDATA[When User should type iinavalid the username and valid password.............passed
+And User should click the login button......................................passed
+Then User should negative to incorrect credential page......................passed
+]]></system-out>
+</testcase>
+</testsuite>
