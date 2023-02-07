@@ -61,9 +61,7 @@ public void user_should_select_a_product() throws InterruptedException  {
 @Then("User should click the add to cart")
 public void user_should_click_the_add_to_cart() {
 	BTpojoClass p=new BTpojoClass();
-	FluentWait<WebDriver> f = new FluentWait<WebDriver>(driver).withTimeout(java.time.Duration.ofSeconds(10))
-			.pollingEvery(java.time.Duration.ofSeconds(1)).ignoring(Throwable.class);
-	f.until(isTrue)
+	
 	p.getTextAddToCart().click();
 	
 	
