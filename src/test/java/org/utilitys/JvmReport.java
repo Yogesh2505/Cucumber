@@ -17,10 +17,7 @@ public class JvmReport {
 		s.add(jpath);
 		ReportBuilder r=new ReportBuilder(s, con);
 		r.generateReports();
-		System.out.println("yogesh1");
-		System.out.println("yogesh2");
-		System.out.println("jeyaram1");
-
+		System.out.println("im check");
 	}
 	
 
